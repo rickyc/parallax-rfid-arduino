@@ -63,7 +63,7 @@ void loop() {
         Serial.println("Unauthorized RFID card.");
       }
     }
-    delay(2000);
+    delay(ITERATION_LENGTH);
   } else {
     disableRFID();
     Serial.println("Got some noise.");
