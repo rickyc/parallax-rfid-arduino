@@ -1,0 +1,14 @@
+Parallax RFID Reader + Arduino
+---
+Testing on Arduino Uno + Paralax RFID Reader
+Arduino 0022
+
+Original source code was created by Benjamin Eckel
+http://www.gumbolabs.org/2009/10/17/parallax-rfid-reader-arduino/
+
+Modified to add and remove rfid tags from the eeprom.
+
+    Arduino serial RX (PIN 0) to Parallax TX (SOUT)
+    Arduino GND to Parallax GND
+    Arduino digital pin (PIN 2) to Parallax /ENABLE
+    Arduino +5V to Parallax VCC
